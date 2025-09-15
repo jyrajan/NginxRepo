@@ -5,6 +5,7 @@ Resources:
       Properties:
         TaskDefinition: <TASK_DEFINITION>
         LoadBalancerInfo:
-          ContainerName: "amazing-website"
+          ContainerName: "sample-website"
 
           ContainerPort: 80
+
