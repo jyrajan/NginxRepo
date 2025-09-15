@@ -2,7 +2,7 @@
     "executionRoleArn": "arn:aws:iam::085794773476:role/ecsTaskExecutionRole",
     "containerDefinitions": [
         {
-            "name": "sample-website",
+            "name": "AwesomeWeb",
             "image": "<IMAGE1_NAME>",
             "essential": true,
             "portMappings": [
@@ -21,4 +21,5 @@
     "cpu": "256",
     "memory": "512",
     "family": "ecs-demo"
+
 }
